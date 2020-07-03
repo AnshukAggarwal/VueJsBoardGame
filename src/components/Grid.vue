@@ -1,3 +1,6 @@
+/* //this component takes care of the board/grid.
+// it requires the grid component
+//here we need a 3x3 grid, hence 3 trs */
 <template>
   <div>
     <table class="grid">
@@ -19,7 +22,6 @@
     </table>
   </div>
 </template>
-
 <script>
 import Cell from './Cell.vue'
 export default {

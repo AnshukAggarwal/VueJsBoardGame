@@ -1,3 +1,4 @@
+// This is the main component which renders the grid on the page
 <template>
   <div>
     <div id="app">
@@ -24,6 +25,7 @@ export default {
     }
   },
   methods:{
+    //method to increment the game number
     restart:function (){
       this.matches++;
     }
